@@ -23,7 +23,7 @@ case $TERM in
         ;;
 esac
 
-PS1="${TITLEBAR}\[\033[31m\]\u@\h: \[\033[0;33m\]\w\[\033[0m\]\$(parse_git_branch)\n> "
+PS1="${TITLEBAR}\[\033[31m\][\h] \[\033[0;33m\]\w\[\033[0m\]\$(parse_git_branch)\n> "
 
 umask 077
 
